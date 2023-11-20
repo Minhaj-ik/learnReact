@@ -1,11 +1,18 @@
-import logo from './logo.svg';
+// App.js
 import './App.css';
+import React from 'react';
+import Component1 from './Components/Component1'; // Updated import
+import Component2 from './Components/component2';
 
 function App() {
   return (
-    <div className="App">
-<h1>Hello World</h1>
-    </div>
+    <>
+      <Component1 />
+      <Component2 />
+      <Component2 />
+      <Component1 />
+
+    </>
   );
 }
 
