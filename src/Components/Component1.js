@@ -1,6 +1,7 @@
 // Component1.js
 import React from 'react';
 import comp1Css from './Component1.module.css'
+
 import {Nav,Navbar,Container} from 'react-bootstrap';
 const Component1 = () => {
   return (
