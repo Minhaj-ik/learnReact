@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import State from './Components/State';
 import ConditionalRendering from './Components/rendering/ConditionalRendering';
 import Keys from './Keys/Keys'
+import Effects from './Effects/Effects';
 
 
 
@@ -27,9 +28,9 @@ function App() {
       <Component2 />
       <CounterComponent />
       <State states= {states} /> */}
-      /<ConditionalRendering isLoggedIn= {true} />
-      <Keys />
-    
+      {/* <ConditionalRendering isLoggedIn= {true} />
+      <Keys /> */}
+    <Effects />
 
       
 
