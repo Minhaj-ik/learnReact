@@ -10,6 +10,7 @@ import ConditionalRendering from './Components/rendering/ConditionalRendering';
 import Keys from './Keys/Keys'
 import Effects from './Effects/Effects';
 import DataFetching from './API/DataFetching';
+import MainRouter from './ReactRouter/MainRouter';
 
 
 
@@ -32,9 +33,9 @@ function App() {
       {/* <ConditionalRendering isLoggedIn= {true} />
       <Keys /> */}
     {/* <Effects /> */}
-<DataFetching />
-      
-
+{/* <DataFetching />
+       */}
+< MainRouter />
 
     </>
   );
